@@ -1,14 +1,17 @@
-#What is SASS?
+#What is this mixin thingy?
+It is a Sass file that contains the grid CSS (Sassified) from the [Blueprint CSS](http://www.blueprintcss.org) project.  It's aim is to DRY up your Haml files by allowing you to create classes and mix in the grid classes.
+
+#What is Sass?
 Sass is a meta-language on top of CSS that‘s used to describe the style of a document cleanly and
 structurally, with more power than flat CSS allows. Sass both provides a simpler, more elegant
 syntax for CSS and implements various features that are useful for creating manageable stylesheets.
 
-#What is a SASS Mixin?
-Mixins enable you to define groups of CSS  attributes and then
+#What is a Sass Mixin?
+Mixins enable you to define groups of CSS attributes and then
 include them inline in any number of selectors throughout the document. 
 
-#How do I use it?
-Use something like the following in one of your SASS files.
+#How do I use this mixin?
+Use something like the following in one of your Sass files.
 
     @import blueprint_sass_mixin
     
@@ -22,12 +25,11 @@ Use something like the following in one of your SASS files.
       :font-size 0.9em
       
 #Why should I use it?
-Instead of your beautiful HAML looking like this:
+Instead of your beautiful Haml looking like this:
 
     .span-8.prepend-2.append-4.colborder.last.post
-      Hey, I found this great new way to use Blueprint CSS in my SASS!
+      I love Blueprint CSS, but dang, my Haml is looking funky!
       
-you can have this.  Enough said?
+you can have this...  Enough said?
 
-    .post
-      Hey, I found this great new way to use Blueprint CSS in my SASS!
+    .post Hey, I found this great new way to use Blueprint CSS in my Sass!
