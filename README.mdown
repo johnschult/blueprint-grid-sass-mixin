@@ -1,8 +1,5 @@
 #What is this mixin thingy?
-It is a Sass file that contains the grid CSS (Sassified) from the Blueprint CSS project.  It's aim is
-to DRY up your Haml files by allowing you to create classes and mix in the grid classes.
-
-http://www.blueprintcss.org/
+It is a Sass file that contains the grid CSS (Sassified) from the [Blueprint CSS](http://www.blueprintcss.org) project.  It's aim is to DRY up your Haml files by allowing you to create classes and mix in the grid classes.
 
 #What is Sass?
 Sass is a meta-language on top of CSS that‘s used to describe the style of a document cleanly and
