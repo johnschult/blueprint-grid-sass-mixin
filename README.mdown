@@ -14,6 +14,8 @@ Use something like the following in one of your SASS files.
     
     .post
       +span-8
+      +prepend-2
+      +append-4
       +last
       +colborder
       :background-color #FFFFFF
@@ -22,10 +24,10 @@ Use something like the following in one of your SASS files.
 #Why should I use it?
 Instead of your beautiful HAML looking like this:
 
-    .span-8.colborder.last.post
-      some text here
+    .span-8.prepend-2.append-4.colborder.last.post
+      Hey, I found this great new way to use Blueprint CSS in my SASS!
       
-you can have this:
+you can have this.  Enough said?
 
     .post
-      some text here
+      Hey, I found this great new way to use Blueprint CSS in my SASS!
