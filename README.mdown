@@ -10,10 +10,22 @@ include them inline in any number of selectors throughout the document.
 #How do I use it?
 Use something like the following in one of your SASS files.
 
-
     @import blueprint_sass_mixin
     
     .post
       +span-8
       +last
       +colborder
+      :background-color #FFFFFF
+      :font-size 0.9em
+      
+#Why should I use it?
+Instead of your beautiful HAML looking like this:
+
+    .span-8.colborder.last.post
+      some text here
+      
+you can have this:
+
+    .post
+      some text here
