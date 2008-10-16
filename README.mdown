@@ -4,6 +4,10 @@ It is a Sass file that contains the grid CSS (Sassified) from the
 is to DRY up your Haml files by allowing you to create your own classes
 that mix in the grid classes.
 
+This Sass file is not transformed into CSS like other Sass files.
+It creates variables like `span-x`, `prepend-x`, etc… that get utilized when 
+evaluating a Sass file that includes it.
+
 #What is Haml?
 [Haml](http://haml.hamptoncatlin.com) takes your gross, ugly templates and
 replaces them with veritable **Haiku**. Haml is the next step in generating
