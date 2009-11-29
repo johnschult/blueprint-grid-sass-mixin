@@ -30,7 +30,7 @@ include them inline in any number of selectors throughout the document.
 #How do I use this mixin?
 Use something like the following in one of your Sass files.
 
-    @import blueprint_sass_mixin
+    @import blueprint_grid_mixin.sass
     
     .post
       +span-8
