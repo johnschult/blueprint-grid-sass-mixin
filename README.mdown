@@ -28,7 +28,7 @@ Mixins enable you to define groups of CSS attributes and then
 include them inline in any number of selectors throughout the document. 
 
 #How do I use this mixin?
-Use something like the following in one of your Sass files.
+Place the `blueprint_grid_mixin.sass` file in the `stylesheets/sass` directory of your project and then use something like the following in one of your Sass files.
 
     @import blueprint_grid_mixin.sass
     
