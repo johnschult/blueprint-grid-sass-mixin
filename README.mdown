@@ -1,6 +1,6 @@
 #What is this mixin thingy?
 It is a Sass file that contains the grid CSS (Sassified) from the
-[Blueprint CSS Framework](http://www.blueprintcss.org) project.  It's aim
+[Blueprint CSS Framework](http://www.blueprintcss.org) project.  Its aim
 is to DRY up your Haml files by allowing you to create your own classes
 that mix in the grid classes.
 
